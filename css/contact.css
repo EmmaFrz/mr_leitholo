@@ -1,0 +1,73 @@
+.colorized{
+    color: #29174C;
+    font-weight: 700;
+}
+.backgroundHeader{
+    width: 100%;
+    height: 700px;
+    background: url('../assets/background.svg');
+    background-size: 100%;
+    color: white;
+}
+.backgroundFooter{
+    width: 100%;
+    height: 200px;
+    background: url('../assets/background.svg');
+    background-size: 100%;
+    color: white;
+}
+.textB{
+    margin-top: 150px;
+    margin-left: -450px;
+}
+.secondColor{
+    color:#B855FF;
+}
+.smallText{
+    font-weight: 500;
+    font-size: small ;
+}
+.space{
+    margin-right: 5px;
+}
+.vertical{
+    vertical-align: middle;
+}
+.distancia{
+    margin-top: 15px;
+}
+.alturaBoton{
+    height: 78px;
+    font-weight: 900;
+    border: 2px solid #29174C;
+    border-radius: 10px;
+}
+.distancia2{
+    margin-top: 120px;
+}
+.alturaBoton2{
+    height: 50px;
+    width: 450px;
+    font-weight: 900;
+    color: white;
+    background: #29174C;
+    border-radius: 10px;
+}
+.alturaBoton2:hover{
+    background-color: #29174C;
+}
+.mainPinguino{
+    margin-left: 150px;
+}
+.navDispenser{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.box{
+    background-color: white;
+    padding: 15px;
+}
+.test{
+    margin-left: 150px;
+    margin-right: 150px;
+}
