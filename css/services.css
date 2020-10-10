@@ -1,3 +1,14 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.selectedField{
+    color: white;
+    background-color: #29174C;
+    padding: 8px;
+    border-radius: 5px;
+}
+
 .colorized{
     color: #29174C;
     font-weight: 700;
@@ -65,4 +76,30 @@
 }
 .bottomDistancing{
     margin-bottom: 55px;
+}
+
+@media (max-width: 480px){
+    .mainPinguino{
+        margin-left: 10px;
+    }
+    .textB{
+        margin-top: 250px;
+        margin-left: 0;
+        width: 350px;
+    }
+
+    .pinguino2{
+        margin-top: 25px;
+        width:200px; 
+        height:350px;
+    }
+
+    .distancia2{
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+
+    .backgroundFooter{
+        height: 300px;
+    }
 }

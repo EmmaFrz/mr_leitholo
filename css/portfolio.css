@@ -1,3 +1,7 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .colorized{
     color: #29174C;
     font-weight: 700;
@@ -5,9 +9,11 @@
 .backgroundHeader{
     width: 100%;
     height: 700px;
+    background-size: auto;
     background: url('../assets/vaper.svg');
     background-size: 100%;
     color: white;
+    background-repeat: no-repeat;
 }
 .backgroundFooter{
     width: 100%;
@@ -67,4 +73,31 @@
 }
 .bottomDistancing{
     margin-bottom: 55px;
+}
+
+.selectedField{
+    color: white;
+    background-color: #29174C;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 480px){
+    .backgroundHeader{
+        height: 350px;
+    }
+
+    .alturaBoton{
+        margin-top: 190px;
+        margin-left: 75px;
+        height: 78px;
+        font-weight: 900;
+        border: 2px solid #29174C;
+        border-radius: 10px;
+    }
+
+    .backgroundFooter{
+        height: 400px;
+    }
 }
